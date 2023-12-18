@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget calculator</title>
+     <!-- bootstrap -->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+     <style>
+
+body{
+    background-color: rgb(207, 190, 223);
+    text-align: center;
+}
+h1,h2{
+    text-align: center;
+    color: rgb(190, 8, 93);
+    font-family:serif;
+}
+
+span{
+    color: blueviolet;
+}
+
+h3{
+    color: rgb(194, 94, 94);
+}
+.blue-line {
+  width: 300px; 
+  height: 2px; 
+  background-color: blue;
+  margin: 0 auto;
+}
+.no-underline{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.custom-width {
+  width: 400px;
+}
+
+
+
+
+     </style>
+</head>
+<body>
+
+    <h1><span>S</span>mart <span>W</span>allet</h1><br>
+    <h3>Steering Family Finances As One..</h3>
+    <br><br><br>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-3">
+            <img src="https://www.overthetopseo.com/wp-content/uploads/2023/05/giphy-money-calculator.gif" alt="login" width="450px" height="400px"><br>
+
+
+        </div>
+        <div class="col-2"></div>
+
+        <div class="col-3">
+
+            <h2>Login</h2>
+            <div class="blue-line"></div>
+            <br><br>
+        
+                <div class="centered">
+        
+                    <!-- <input id="log_name" type="text" class="form-control mb-3 rounded-2 custom-width" placeholder="Username"><br>
+                    <input id="log_psw" type="password" class="form-control mb-3 rounded-2 custom-width" placeholder="Password"><br>
+                    <button onclick="login()" class="btn btn-primary rounded-5">Login</button> -->
+
+                    <div class="input-group mb-3">
+                        <input id="log_name" type="text" class="form-control rounded-2" placeholder="Username">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input id="log_psw" type="password" class="form-control rounded-2" placeholder="Password">
+                    </div><br>
+                    <div class="input-group mb-3">
+                        <button onclick="login()" class="btn btn-primary rounded-5 w-100">Login</button>
+                    </div>
+                    
+                  </div><br>
+          <div class="acc">Don't have an Account? <a class="no-underline" href="./register.html">Register</a></div>
+
+        
+            </div>
+        <div class="col-2"></div>
+    </div>   
+<br>
+
+  <br><br><br>
+
+
+
+</body>
+</html>
+
+<script src="./script.js"></script>
